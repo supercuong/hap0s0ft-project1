@@ -383,82 +383,46 @@ bottom: 554px;
 	background-color: #7CB342;
 	
 }
-.circle-one{
-	width: 100px;
-	height: 100px;
-	border: 100px solid #ffffff;
-	position: absolute;
-	box-sizing: border-box;
 
-}
 /*member*/
 #member{
-	width: 1113px;
-	height: 388px;
-	position: relative;
+	width: 1920px;
+	height: 578px;
+	position: relative; 
 	
+
 }
-#member .Members .img-one{
-	height: 36px;	
-	width: 36px;	
-	color: #444444;	
-	font-family: themify;	
-	font-size: 36px;	
-	letter-spacing: -0.07px;	
-	line-height: 36px;
+.members .img-people{
 	position: absolute;
 	right: 1495px;
-	left:389px;
-	bottom: 114px;
-	
+	left: 389px;
+	height: 36px;
+	width: 36px;
+	color: #444444;
+	font-family: themify;
+	font-size: 36px;
+	letter-spacing: -0.07px;
+	line-height: 36px;
+	top: 110px;
+
 }
-#member .Members h4{
-	height: 63px;	
-	width: 213px;	
-	color: #39474E;	
-	font-family: Roboto;	
-	font-size: 48px;	
-	font-weight: 300;	
-	letter-spacing: -0.09px;	
+.members h4{
+	height: 63px;
+	width: 213px;
+	color: #39474E;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: -0.09px;
 	line-height: 63px;
-	position: absolute;
 	right: 1264px;
 	left: 443px;
-	bottom: 100px;
-}
-.lorem-is img{
-	height: 24px;
-	width: 25px;
-	color: #8BC34A;
-	font-family: themify;
-	font-size: 18px;
-	line-height: 24px;
-	text-align: justify;
-	right: 1513px;
-	left: 389px;
 	position: absolute;
-	}
-.lorem-simply img{
-	height: 24px;
-	width: 18px;
-	color: #8BC34A;
-	font-family: themify;
-	font-size: 18px;
-	line-height: 24px;
-	text-align: justify;
+	top: 100px
 }
-.lorem-text img{
-	height: 24px;
-	width: 18px;
-	color: #8BC34A;
-	font-family: themify;
-	font-size: 18px;
-	line-height: 24px;
-	text-align: justify;
-}
-.lorem-dummy{
+.members p{
 	height: 19px;	
-	width: 450px;	
+	width: 442px;	
 	color: #283238;	
 	font-family: Roboto;	
 	font-size: 14px;	
@@ -468,41 +432,252 @@ bottom: 554px;
 	position: absolute;
 	right: 1087px;
 	left:391px;
-		
+	top:178px;
+
 }
-.lorem-is p{
-	height: 50px;	
-	width: 519px;	
-	color: #283238;	
-	font-family: Roboto;	
-	font-size: 13px;	
-	line-height: 24px;	
+ol li a{
+	height: 50px;
+	width: 519px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+	}
+.lorem-simply-one{
+	position: absolute;
+	left:425px;
+	right: 976px;
+	top: 223px;
+
+}
+.lorem-simply-two{
+	position: absolute;
+	left: 425px;
+	right: 976px;
+	top:290px;
+}
+.lorem-simply-three{
+	position: absolute;
+	left: 425px;
+	right: 976px;
+	top: 357px; 
+}
+ol li img{
+	height: 24px;
+	width: 18px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 18px;
+	line-height: 24px;
 	text-align: justify;
 }
-.lorem-simply p{
-	height: 50px;	
-	width: 519px;	
-	color: #283238;	
-	font-family: Roboto;	
-	font-size: 13px;	
-	line-height: 24px;	
+ol li .tick-one{
+	position: absolute;
+	right:  1513px;
+	left:389px;
+	top: 223px;
+
+}
+ol li .tick-two{
+	position: absolute;
+	right: 1513px;
+	left:389px;
+	top: 289px;
+
+}
+.tick-three{
+	position: absolute;
+	right: 1513px;
+	left:389px;
+	top:356px;
+}
+#member .member-images img{
+	position:  absolute;
+	right: 400.71px;
+	left:1048.84px;
+	top: 100.39px;
+}
+#member .startmember-now{
+	position: absolute;
+	height: 50px;
+	width: 195px;
+	border-radius: 100px;
+	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	position: relative;
+	right: 1334px;
+	left: 391px;
+	top: 437px;		
+}
+.startmember-now a{
+	position: absolute;
+	top:15px;
+	bottom: 14px;
+	right: 47px;
+	left: 47px;
+	height: 21px;
+	width: 101px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+}
+/*member*/
+#customer{
+	width: 1920px;
+	height: 578px;
+	position: relative;
+}
+#customer .customer-images{
+	top:231.39px;
+	right: 1410.01px;
+	left: 391.22px;
+	position: absolute;
+}
+ #customer .images-face {
+ 	position: absolute;
+ 	right: 922px;
+ 	left: 962px;
+ 	bottom: 427px;
+ 	top: 231.55px;
+	height: 36px;
+	width: 36px;
+	color: #444444;
+	font-family: themify;
+	font-size: 36px;
+	letter-spacing: -0.07px;
+	line-height: 36px;
+}
+.customers h4{
+	height: 63px;
+	width: 243px;
+	color: #444444;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: -0.09px;
+	line-height: 63px;
+	right: 660px;
+	left: 1017px;
+	top:220px;
+	bottom: 415px;
+	position: absolute;
+}
+#customer .customers p{
+	height: 19px;
+	width: 442px;
+	color: #283238;
+	font-family: Roboto; 
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 19px;
+	right: 501px;
+	left: 968px;	
+	top: 293px;
+	bottom: 381px;
+	position: absolute;
+}
+#customer .icon-one{
+	height: 24px;
+	width: 18px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 18px;
+	line-height: 24px;
 	text-align: justify;
+	right: 928px;
+	left: 974px;
+	bottom: 332px;
+	top: 348px;
+	position: absolute;
 }
-.lorem-text p{
-	height: 50px;	
-	width: 519px;	
-	color: #283238;	
-	font-family: Roboto;	
-	font-size: 13px;	
-	line-height: 24px;	
+#customer .icon-two{
+	height: 24px;
+	width: 18px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 18px;
+	line-height: 24px;
 	text-align: justify;
+	position: absolute;
+	right: 928px;
+	left:974px;
+	bottom: 268px;
+	top: 426px;
 }
-.fl-left{
-	float: left;
+#customer .icon-three{
+	height: 24px;
+	width: 18px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: justify;
+	position: absolute;
+	right: 928px;
+	left: 974px;
+	top: 490px;
 }
-.fl-right{
-	float: right;
+#customer .lorem-is-one{
+	height: 48px;
+	width: 524px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+	position: absolute;
+	top: 347px;
+	left: 989px;
+	right: 400px;
+	bottom: 347px;
 }
+#customer .lorem-is-two{
+	height: 48px;
+	width: 524px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+	position: absolute;
+	right: 390px;
+	left:1006px;
+	top:402px;
+	bottom: 244px;	
+}
+#customer .lorem-is-three{
+	height: 48px;
+	width: 524px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+	position: absolute;
+	top: 470px;
+	right: 405px;
+	left: 991px;
+}
+
+
+
+
+#our-customer{
+	background-image: url(../images/ourcustomer.jpg);
+	width: 1920px;
+	height: 544px;
+	margin-top:119.5px;
+}
+
+
+
+
+
+
 
 
 
