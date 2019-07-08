@@ -36,8 +36,9 @@ body{
 	left: 1448px;
 	right:390px;
 	bottom: 796px;
+	position: relative;
 }
- .sign-in a{
+ .sign-in span{
  	height: 16px;
  	width: 50px;
  	color:#8BC34A;
@@ -47,6 +48,7 @@ body{
  	line-height: 16px;
  	padding: 10px ;
 	
+
 }
 .hapoERP img{
 position: absolute;
@@ -376,15 +378,125 @@ bottom: 554px;
 	top: 100px;
 }
 /*		 oval      */
-#oval{
-	width: 1920px;
-	height: 322px;
+#oval {
 	position: relative;
-	background-color: #7CB342;
-	
+	height: 322px;
+	width: 1920px;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 
-/*member*/
+#oval .container-circle {
+	position: absolute;
+	height: 183.25px;
+	width: 109.5px;
+	top:68.75px;
+	bottom: 70px;
+}
+
+#oval .container-circle .icon-oval{
+	position: absolute;
+	left:35px;
+	top: 30px;
+	height: 36px;
+	width: 36px;
+	color: #FFFFFF;
+	font-family: themify;
+	font-size: 36px;
+	letter-spacing: -0.07px;
+	line-height: 36px;
+}
+
+#oval .container-circle .oval-one {
+	position: absolute;
+	top: 0;
+	left:0;
+	box-sizing: border-box;
+	height: 109.5px;
+	width: 109.5px;
+	border: 2.5px solid #FFFFFF;
+	border-radius: 50%;
+}
+#oval .container-circle .oval-two .content-oval {
+	position: absolute;
+	top: 7px;
+	left: 28%; 
+	height: 32px;
+	width: 14px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 24px;
+	letter-spacing: -0.05px;
+	line-height: 32px;
+}
+#oval .container-circle .oval-two{
+	position: absolute;
+	top: 85px;
+	left: 28%; 
+	box-sizing: border-box;
+	height: 45.5px;
+	width: 45.5px;
+	border: 2.5px solid #FFFFFF;
+	background-color: #7CB342;
+	border-radius: 50%;
+}
+
+
+#oval .container-circle .text-oval {
+	position: absolute;
+	bottom: 0;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	text-align: center;
+	height: 42px;
+}
+
+#oval .container-circle .daily-report {
+	position: absolute;
+	bottom: 0;
+
+}
+
+#oval .container-circle-position-one {
+	position: absolute;
+	top:68.75px;
+	left:391.75px;
+	bottom: 143.75px;
+	right: 1418.75px
+
+}
+
+#oval .container-circle-position-two{
+	position: absolute;
+	left:648.75px;
+	top: 68.75px;
+	bottom: 143.75px;
+}
+
+#oval .container-circle-position-three {
+	position: absolute;
+	left: 906.75px;
+	top: 68.75px;
+	bottom: 143.75px;
+}
+
+#oval .container-circle-position-four {
+	position: absolute;
+	left: 1164.75px;
+	top: 68.75px;
+	bottom: 143.75px;
+}
+
+#oval .container-circle-position-five {
+	position: absolute;
+	left:1421.75px;
+	top: 68.75px;
+	bottom: 143.75px;
+
+}
+
 #member{
 	width: 1920px;
 	height: 578px;
@@ -530,8 +642,8 @@ ol li .tick-two{
 	height: 578px;
 	position: relative;
 }
-#customer .customer-images{
-	top:231.39px;
+#customer .customer-images img{
+	top:124px;
 	right: 1410.01px;
 	left: 391.22px;
 	position: absolute;
@@ -541,7 +653,7 @@ ol li .tick-two{
  	right: 922px;
  	left: 962px;
  	bottom: 427px;
- 	top: 231.55px;
+ 	top: 115px;
 	height: 36px;
 	width: 36px;
 	color: #444444;
@@ -561,7 +673,7 @@ ol li .tick-two{
 	line-height: 63px;
 	right: 660px;
 	left: 1017px;
-	top:220px;
+	top:100px;
 	bottom: 415px;
 	position: absolute;
 }
@@ -576,7 +688,7 @@ ol li .tick-two{
 	line-height: 19px;
 	right: 501px;
 	left: 968px;	
-	top: 293px;
+	top: 178px;
 	bottom: 381px;
 	position: absolute;
 }
@@ -591,7 +703,7 @@ ol li .tick-two{
 	right: 928px;
 	left: 974px;
 	bottom: 332px;
-	top: 348px;
+	top: 222px;
 	position: absolute;
 }
 #customer .icon-two{
@@ -606,7 +718,7 @@ ol li .tick-two{
 	right: 928px;
 	left:974px;
 	bottom: 268px;
-	top: 426px;
+	top: 286px;
 }
 #customer .icon-three{
 	height: 24px;
@@ -619,7 +731,7 @@ ol li .tick-two{
 	position: absolute;
 	right: 928px;
 	left: 974px;
-	top: 490px;
+	top: 350px;
 }
 #customer .lorem-is-one{
 	height: 48px;
@@ -630,9 +742,9 @@ ol li .tick-two{
 	line-height: 24px;
 	text-align: justify;
 	position: absolute;
-	top: 347px;
-	left: 989px;
-	right: 400px;
+	top: 222px;
+	left: 1006px;
+	right: 405px;
 	bottom: 347px;
 }
 #customer .lorem-is-two{
@@ -644,9 +756,9 @@ ol li .tick-two{
 	line-height: 24px;
 	text-align: justify;
 	position: absolute;
-	right: 390px;
+	right: 405px;
 	left:1006px;
-	top:402px;
+	top:286px;
 	bottom: 244px;	
 }
 #customer .lorem-is-three{
@@ -658,20 +770,349 @@ ol li .tick-two{
 	line-height: 24px;
 	text-align: justify;
 	position: absolute;
-	top: 470px;
+	top: 350px;
 	right: 405px;
-	left: 991px;
+	left: 1006px;
+}
+#customer .startcustomer-now{
+	position: absolute;
+	height: 50px;
+	width: 195px;
+	border-radius: 100px;
+	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	top: 428px;
+	bottom: 100px;
+	right: 765px;
+	left: 960px;
+	position: relative;
+}
+.startcustomer-now a{
+	height: 21px;
+	width: 101px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	right: 47px;
+	top: 15px;
+	bottom: 14px;
+	left: 47px;
+	position: absolute;
 }
 
 
-
-
+/*customer*/
 #our-customer{
 	background-image: url(../images/ourcustomer.jpg);
 	width: 1920px;
 	height: 544px;
-	margin-top:119.5px;
+	margin-top:100px;
 }
+/*end---our-customer*/
+/*project*/
+#project{
+	width: 1920px;
+	height: 578px;
+	position: relative;
+}
+#project .project-report img{
+	position: absolute;
+	right: 1494px;
+	left: 390px;
+	height: 36px;
+	width: 36px;
+	color: #444444;
+	font-family: themify;
+	font-size: 36px;
+	letter-spacing: -0.07px;
+	line-height: 36px;
+	top: 114px;
+}
+#project .project-report h4{
+	position: absolute;
+	right: 1224px;
+	left:444px;
+	height: 63px;
+	width: 252px;
+	color: #444444;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: -0.09px;
+	line-height: 63px;
+	top:100px;
+}
+#project .lorem-text{
+	height: 19px;
+	width: 450px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 19px;
+	position: absolute;
+	right: 1086px;
+	left:392px;
+	top: 178px;
+}
+#project .lorem-of{
+	height: 168px;
+	width: 555px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+	position: absolute;
+	right: 975px;
+	left:390px;
+	top: 222px;
+}
+#project .images-project img{
+	position: absolute;
+	right: 391.55px;
+	left:1026.76px;
+	top: 100px;
+}
+/*end project*/
+/*footer*/
+#footer{
+height: 180px;
+width: 1920px;
+position: absolute;
+border: 1px solid #ECEFF1;
+background-color: #39474E;
+box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+}
+
+#footer .hapo-ERP #hapoERP{
+	height: 29px;
+	width: 96px;
+	color: #AED581;
+	font-family: Enso;
+	font-size: 24px;
+	line-height: 29px;
+	top: 45px;
+	bottom: 105px;
+	left: 389px;
+	right: 1435px;
+	position: absolute;
+}
+#footer .hapo-ERP #copyright-2017{
+	height: 13px;
+	width: 69px;
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 13px;
+	position: absolute;
+	top: 110px;
+	bottom: 57px;
+	right: 1435px;
+	left: 389px;
+}
+#footer .get-in-touch #get-in-touch-two {
+	height: 18px;
+	width: 86px;
+	color: #8BC34A;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.03px;
+	line-height: 18px;
+	position: absolute;
+	top: 54px;
+	left: 585px;
+	bottom: 108px;
+	right: 1249px;
+}
+#footer .get-in-touch #contact-us-contact-sale{
+	height: 40px;
+	width: 63px;
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 20px;
+	position: absolute;
+	top: 86px;
+	bottom: 54px;
+	left: 585px;
+	right: 1272px;
+}
+#footer .how-to-works #how-to-work{
+	height: 18px;
+	width: 98px;
+	color: #8BC34A;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.03px;
+	line-height: 18px;
+	position: absolute;
+	top: 54px;
+	bottom: 108px;
+	left: 975px;
+	right: 847px;
+}
+#footer .how-to-works #about-us-about-hapo-erp-two{
+	height: 40px;
+	width: 76px;
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 20px;
+	position: absolute;
+	top: 86px;
+	bottom: 54px;
+	right: 869px;
+	left: 975px;
+}
+#footer .learn-more #learn-more-two{
+	height: 18px;
+	width: 81px;
+	color: #8BC34A;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.03px;
+	line-height: 18px;
+	position: absolute;
+	top: 54px;
+	bottom: 108px;
+	left: 780px;
+	right: 1059px;
+}
+#footer .learn-more #about-us-about-hapo-erp{
+	height: 40px;
+	width: 76px;
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 20px;
+	position: absolute;
+	top: 86px;
+	bottom: 54px;
+	left: 780px;
+	right: 1064px;
+}
+#footer .legal #legal{
+	height: 18px;
+	width: 39px;
+	color: #8BC34A;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.03px;
+	line-height: 18px;
+	position: absolute;
+	top: 54px;
+	bottom: 108px;
+	right: 711px;
+	left: 1170px;
+}
+#footer  .legal #terms-of-service-pri{
+	height: 40px;
+	width: 76px;
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 20px;
+	position: absolute;
+	top: 86px;
+	bottom: 54px;
+	left: 1170px;
+	right: 674px;
+}
+
+#footer .facebook{
+	height: 13px;
+	width: 13px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 13px;
+	letter-spacing: -0.03px;
+	line-height: 13px;
+	position: absolute;
+	top: 108px;
+	left: 1365px;
+	right: 542px;
+	bottom: 59px;
+}
+#footer .twitter{
+	height: 13px;
+	width: 13px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 13px;
+	letter-spacing: -0.03px;
+	line-height: 13px;
+	position: absolute;
+	top: 108px;
+	right: 491px;
+	bottom: 59px;
+	left: 1416px;
+}
+#footer .youtube{
+	height: 13px;
+	width: 13px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 13px;
+	letter-spacing: -0.03px;
+	line-height: 13px;
+	position: absolute;
+	top: 108px;
+	bottom: 59px;
+	right: 441px;
+	left: 1466px;
+}
+#footer .linkedin{
+	height: 13px;
+	width: 13px;
+	color: #8BC34A;
+	font-family: themify;
+	font-size: 13px;
+	letter-spacing: -0.03px;
+	line-height: 13px;
+	position: absolute;
+	top:108px;
+	left: 1517px;
+	right: 390px;
+	bottom: 59px;
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
 
 
 
